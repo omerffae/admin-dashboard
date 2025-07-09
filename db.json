@@ -1,18 +1,6 @@
 {
   "products": [
     {
-      "id": "3",
-      "name": "Sony WH-1000XM5 Headphones",
-      "category": "Accessories",
-      "price": 249.99,
-      "stock": 40,
-      "description": "Industry-leading noise cancellation, 30 hours battery life.",
-      "image_url": "https://picsum.photos/seed/3/500/500",
-      "rating": 4.9,
-      "reviews_count": 120,
-      "brand": "Sony"
-    },
-    {
       "id": "4",
       "name": "Adidas Air Max 270",
       "category": "Shoes",

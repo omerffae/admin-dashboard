@@ -2,6 +2,8 @@
 
 Bu proje, modern ve kullanıcı dostu bir yönetim paneli uygulamasıdır. Next.js 14 kullanılarak geliştirilmiş olup, TypeScript ile yazılmıştır.
 
+<video src="public/admin_dashboard.mp4" controls width="500"></video>
+
 ## 🚀 Özellikler
 
 - 📊 Modern ve duyarlı tasarım
