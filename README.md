@@ -1,97 +1,94 @@
-# Admin Dashboard Projesi
+# Admin Dashboard Project
 
-Bu proje, modern ve kullanıcı dostu bir yönetim paneli uygulamasıdır. Next.js 14 kullanılarak geliştirilmiş olup, TypeScript ile yazılmıştır.
+This project is a modern and user-friendly admin panel application. It is developed using Next.js 14 and written in TypeScript.
 
-
+## 🚀 Features
 ![Proje Görseli](/public/admin_dashboard.gif)  
 
+- 📊 Modern and responsive design
+- 🔐 Secure authentication system
+- 📱 Mobile-friendly interface
+- 📈 Data visualization and charts
+- 🛍️ Product management
+- 👥 User management
+- 🌙 Dark/Light theme support
 
-## 🚀 Özellikler
-
-- 📊 Modern ve duyarlı tasarım
-- 🔐 Güvenli kimlik doğrulama sistemi
-- 📱 Mobil uyumlu arayüz
-- 📈 Veri görselleştirme ve grafikler
-- 🛍️ Ürün yönetimi
-- 👥 Kullanıcı yönetimi
-- 🌙 Karanlık/Aydınlık tema desteği
-
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 - [Next.js 14](https://nextjs.org/) - React framework
-- [TypeScript](https://www.typescriptlang.org/) - Tip güvenliği
-- [Tailwind CSS](https://tailwindcss.com/) - Stil ve tasarım
-- [Shadcn/ui](https://ui.shadcn.com/) - UI bileşenleri
-- [React Icons](https://react-icons.github.io/react-icons/) - İkonlar
-- [Recharts](https://recharts.org/) - Grafikler
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling and design
+- [Shadcn/ui](https://ui.shadcn.com/) - UI components
+- [React Icons](https://react-icons.github.io/react-icons/) - Icons
+- [Recharts](https://recharts.org/) - Charts
 
-## 📦 Kurulum
+## 📦 Installation
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
 git clone [https://github.com/omerffae/admin-dashboard.git]
 ```
 
-2. Bağımlılıkları yükleyin:
+2. Install dependencies:
 ```bash
 npm install
-# veya
+# or
 yarn install
 ```
 
-3. Geliştirme sunucusunu başlatın:
+3. Start the development server:
 ```bash
 npm run dev
-# veya
+# or
 yarn dev
 ```
 
-4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 src/
-├── app/              # Sayfa yönlendirmeleri ve layout
-├── components/       # Yeniden kullanılabilir bileşenler
-│   ├── header/      # Üst menü bileşenleri
-│   ├── sidebar/     # Yan menü bileşenleri
-│   ├── products/    # Ürün ile ilgili bileşenler
-│   ├── home/        # Ana sayfa bileşenleri
-│   └── graphics/    # Grafik bileşenleri
-├── utils/           # Yardımcı fonksiyonlar
-├── types/           # TypeScript tip tanımlamaları
-└── assets/          # Statik dosyalar
+├── app/              # Page routing and layout
+├── components/       # Reusable components
+│   ├── header/      # Header components
+│   ├── sidebar/     # Sidebar components
+│   ├── products/    # Product-related components
+│   ├── home/        # Home page components
+│   └── graphics/    # Chart components
+├── utils/           # Utility functions
+├── types/           # TypeScript type definitions
+└── assets/          # Static files
 ```
 
-## 🔧 Ortam Değişkenleri
+## 🔧 Environment Variables
 
-Projeyi çalıştırmak için aşağıdaki ortam değişkenlerini `.env.local` dosyasında tanımlamanız gerekmektedir:
+To run the project, define the following environment variables in a `.env.local` file:
 
 ```env
 NEXT_PUBLIC_API_URL=your_api_url
 ```
 
-## 📝 Kullanım
+## 📝 Usage
 
-1. Giriş yapın veya hesap oluşturun
-2. Sol menüden istediğiniz bölüme gidin
-3. Ürünleri yönetin, grafikleri görüntüleyin veya kullanıcıları düzenleyin
+1. Log in or create an account
+2. Navigate to the desired section from the sidebar
+3. Manage products, view charts, or edit users
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Bu depoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
+4. Push to your branch (`git push origin feature/amazing-feature`)
+5. Create a Pull Request
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT License. For more information, see the `LICENSE` file.
 
-## 📞 İletişim
+## 📞 Contact
 
-Proje Sahibi - [@omerffae](https://twitter.com/omerffae)
+Project Owner - [@omerffae](https://twitter.com/omerffae)
 
-Proje Linki: [https://github.com/omerffae/admin-dashboard.git](https://github.com/omerffae/admin-dashboard.git)
+Project Link: [https://github.com/omerffae/admin-dashboard.git](https://github.com/omerffae/admin-dashboard.git)
